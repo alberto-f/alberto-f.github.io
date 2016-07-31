@@ -1,0 +1,54 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Tracking projects
+email: albertofernandezreyes@gmail.com
+description: Github page for tracking projects
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: https://twitter.com/alberto_lfr
+github_username:  https://github.com/alberto-f
+
+# Build settings
+markdown: kramdown
+
+permalink: /:title
+
+#Defaults values
+defaults:
+  #ALL
+  - 
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+  #POSTS
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+
+  #PAGES
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+  #DRAFTS
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values:
+      layout: "draft"
+
