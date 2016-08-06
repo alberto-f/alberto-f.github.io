@@ -1,0 +1,45 @@
+@import "_colors";
+
+article {
+
+	.post-header{
+		overflow: hidden;
+
+		&__title {
+			font-weight: bold;
+			line-height: 1.5em;
+			white-space: nowrap;
+			color: $dark-blue;
+		}
+
+		&__metadata {
+
+		}
+	}
+
+	.post-content{}
+
+	.post-categories {
+		overflow: hidden;
+		padding: 20px 0px;
+
+		&__title {
+			font-weight: bold;
+			display: inline;
+		}
+
+		.categories {
+			display: inline;
+			list-style-type: none;
+
+			.category{
+				display: inline;
+				margin: 10px;
+				border: 1px solid $blue;
+				border-radius: 5px;
+				padding: 5px;
+				background-color: $light-blue;
+			}
+		}
+	}
+}

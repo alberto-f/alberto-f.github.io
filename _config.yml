@@ -10,9 +10,9 @@ title: Tracking projects
 email: albertofernandezreyes@gmail.com
 description: Github page for tracking projects
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: https://twitter.com/alberto_lfr
-github_username:  https://github.com/alberto-f
+url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site
+twitter_username: alberto_lfr
+github_username:  alberto-f
 
 # Build settings
 markdown: kramdown
