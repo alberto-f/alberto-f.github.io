@@ -1,9 +1,9 @@
 <header class="header__header">
   <nav class="container navbar">
-    <a class="u-pull-left" href="/">Home</a>
+    <a class="u-pull-left button" href="/">Home</a>
     {% for page in site.pages %}
       {% if page.title %}
-          <a class="u-pull-right" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          <a class="u-pull-right button" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
       {% endif %}
     {% endfor %}
   </nav>
